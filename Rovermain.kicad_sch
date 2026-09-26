@@ -3824,6 +3824,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 152.4) (xy 252.73 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "564d8e5f-e21a-4603-9bd6-560b669ee369")
+	)
+	(wire
+		(pts
 			(xy 125.73 39.37) (xy 125.73 52.07)
 		)
 		(stroke
@@ -4594,7 +4604,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 153.67) (xy 190.5 153.67)
+			(xy 186.69 153.67) (xy 194.31 153.67)
 		)
 		(stroke
 			(width 0)
@@ -4881,6 +4891,16 @@
 			(type default)
 		)
 		(uuid "d7882311-8b5e-4b21-ba8f-7ab8e82549ba")
+	)
+	(wire
+		(pts
+			(xy 246.38 154.94) (xy 246.38 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d90dbc9d-58e4-464e-8509-587b2d5f7d4e")
 	)
 	(wire
 		(pts
@@ -11306,7 +11326,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 190.5 153.67 90)
+		(at 194.31 153.67 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11316,7 +11336,7 @@
 		(dnp no)
 		(uuid "cb31401c-97cf-4573-bcde-bc9ecd968f6b")
 		(property "Reference" "#PWR026"
-			(at 196.85 153.67 0)
+			(at 200.66 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11327,7 +11347,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 195.58 153.67 0)
+			(at 199.39 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11337,7 +11357,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 153.67 0)
+			(at 194.31 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11348,7 +11368,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 153.67 0)
+			(at 194.31 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11359,7 +11379,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 190.5 153.67 0)
+			(at 194.31 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11728,6 +11748,83 @@
 			(project "Rovermain"
 				(path "/84798147-9d63-4def-831a-b3dc3b19dd9b"
 					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 252.73 152.4 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d9ca5480-0717-4db8-bf1c-ad064819c6b3")
+		(property "Reference" "#PWR027"
+			(at 259.08 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 257.81 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 252.73 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6a470b91-6808-40b8-9940-928d47b55c05")
+		)
+		(instances
+			(project "Rovermain"
+				(path "/84798147-9d63-4def-831a-b3dc3b19dd9b"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
