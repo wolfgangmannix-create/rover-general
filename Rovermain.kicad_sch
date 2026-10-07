@@ -10199,7 +10199,7 @@
 				)
 			)
 		)
-		(property "Footprint" "USB-C-PD-2171750001:2171750001_MOL"
+		(property "Footprint" "Real_USB-C-PD-2171750001:2171750001_MOL"
 			(at 93.98 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -11121,7 +11121,7 @@
 				)
 			)
 		)
-		(property "Footprint" "USB-C-PD-2171750001:2171750001_MOL"
+		(property "Footprint" "Real_USB-C-PD-2171750001:2171750001_MOL"
 			(at 38.1 36.83 0)
 			(hide yes)
 			(show_name no)
