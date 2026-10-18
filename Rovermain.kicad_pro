@@ -751,13 +751,17 @@
         "uuid": "84798147-9d63-4def-831a-b3dc3b19dd9b"
       }
     ],
-    "used_designators": "R1-17,J1-20,SW1-2,P1,U1-4,Q1-3,#PWR1-30,#PWR32-41,D1-10,D12,C1-6,C9-16,F1-14,K1,RL1",
+    "used_designators": "J1-20,R1-19,R22-27,P1,SW1-4,U1-9,Q1-3,D1-14,#PWR1-30,#PWR32-75,C1-6,C9-28,F1-14,K1,RL1,Y1-3,X1",
     "variants": []
   },
   "sheets": [
     [
       "84798147-9d63-4def-831a-b3dc3b19dd9b",
       ""
+    ],
+    [
+      "9f50faca-0bb8-4223-bf1d-ce62193d9599",
+      "CAN2USB"
     ]
   ],
   "text_variables": {},
